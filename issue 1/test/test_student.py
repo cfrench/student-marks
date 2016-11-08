@@ -17,3 +17,7 @@ class TestStudent(unittest.TestCase):
     def test_that_invalid_genders_are_rejected(self):
         with self.assertRaises(ValueError):
             Student(1, "Salim", "Fadhley", "dunno", datetime.date(1975,4,4))
+
+    def test_that_non_integer_ids_are_rejected(self):
+        with self.assertRaises(TypeError):
+            Student("xxx", "Salim", "Fadhley", "male", datetime.date(1975,4,4))
