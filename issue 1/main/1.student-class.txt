@@ -1,0 +1,14 @@
+student-class.py
+Issue 1: Intro to OOP
+Courses for teachers at A-level generally explain how to create a class and how to create an instance
+at the Python interpreter.
+The user enters an ID for the new instance.
+What is not covered in my experience is how to create instances within a program,
+ie by asking the user to enter data, eg firstname, lastname, gender, dob for a new student instance.
+Teachers who have been accustomed to using MS Access will know that IDs are created, typically by
+using autonumber or by a combination of a sequential number and initials.
+The student-class.py script is an attempt to create a student instance with an ID generated from a list
+to which students are added.
+
+I would like comment please on whether this approach is OK or whether, as I suspect, there is a much
+better way of doing it.
